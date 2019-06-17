@@ -1,0 +1,31 @@
+.history {
+    position: relative;
+    text-align: left;
+    top: 50px;
+    left: 20%;
+    width: 50%;
+    display: table-cell;
+}
+
+.input {
+    position: relative;
+    text-align: left;
+    top: 50px;
+    left: 50px;
+    width: 50%;
+    display: table-cell;
+}
+
+#blog-field {
+    margin: 0px 0px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    border: 1px solid #888;
+    width: 600px;
+    overflow-wrap: break-word;
+}
+
+#list {
+    position: relative;
+    top: 30px;
+}
