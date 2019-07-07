@@ -19,10 +19,14 @@ class Header extends Component {
         <Facebook className="facebook" updateFacebook={this.props.updateFacebook} profile={this.props.profile}/>
 
         <div className={'menu'}>
-          <img
-            src={logo}
-            className="home-logo" alt="logo" onClick={() => this.props.navHome()}/>
-        <SimpleMenu updatePage={this.props.updatePage} handleLogout={this.props.handleLogout}/>
+          {/*<img*/}
+          {/*  src={logo}*/}
+          {/*  className="home-logo" alt="logo" onClick={() => this.props.navHome()}/>*/}
+
+          Louis' Portfolio
+          <div id={"simple-menu"}>
+            <SimpleMenu updatePage={this.props.updatePage} handleLogout={this.props.handleLogout}/>
+          </div>
         </div>
       </div>
     );

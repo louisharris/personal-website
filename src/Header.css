@@ -21,13 +21,21 @@
 
 .menu {
     text-align: center;
-    top: 85px;
+    top: 120px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 80px;
 }
 
 .home-logo {
     cursor: pointer;
     height: 80px;
+}
+
+#simple-menu {
+    position: relative;
+    text-align: center;
+    /*transform: translate(-50%, -50%);*/
+    top: -40px;
 }

@@ -1,0 +1,38 @@
+.App {
+}
+
+.main-body {
+  text-align: center;
+}
+
+.image-container {
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+.images {
+  transform: translate(-50%, -50%);
+  width: 30vw;
+}
+#img1 {
+  top: 40vh;
+  left: 25%;
+}
+#img2 {
+  top: 40vh;
+  left: 75%;
+
+}
+#img3 {
+  top: 80vh;
+  left: 25%;
+}
+#img4 {
+  top: 80vh;
+  left: 75%;
+}
+
+.App-intro {
+    font-size: large;
+}

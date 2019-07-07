@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Profile from "./Profile"
-import App from "./App"
+import Home from "./Home"
 import Blog from "./Blog"
 import Logout from "./Logout"
 import './Body.css';
@@ -14,7 +14,7 @@ class Body extends Component {
 
     if (this.props.currentPage === "home") {
       return (
-        <App />
+        <Home />
       );
     } else if (this.props.currentPage === "profile") {
       return (

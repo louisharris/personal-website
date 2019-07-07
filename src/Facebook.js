@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './Home.css';
 
 import {FacebookProvider, LoginButton, Status} from 'react-facebook';
 
@@ -38,7 +38,7 @@ class Facebook extends Component {
               <Status>
                 {({loading, status}) => (
                   <div>
-                    {console.log("App connection status: " + status)}
+                    {console.log("Home connection status: " + status)}
                   </div>
                 )}
               </Status>
@@ -51,7 +51,7 @@ class Facebook extends Component {
               <Status>
                 {({loading, status}) => (
                   <div>
-                    {console.log("App connection status: " + status)}
+                    {console.log("Home connection status: " + status)}
                   </div>
                 )}
               </Status>
