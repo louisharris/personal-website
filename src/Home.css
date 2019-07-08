@@ -3,6 +3,7 @@
 
 .main-body {
   text-align: center;
+  font-size: 2vh;
 }
 
 .image-container {
@@ -31,8 +32,4 @@
 #img4 {
   top: 80vh;
   left: 75%;
-}
-
-.App-intro {
-    font-size: large;
 }
