@@ -52,14 +52,16 @@ class Blog extends Component {
     );
 
     return (
-      <div className="blog">
-        <div className={"input"}>
-          Write new post here:
-          <TextFields addBlog={this.addBlog} />
-        </div>
-        <div className={"history"}>
-          <div>Previous Posts:</div>
-          <div id={"list"}>{listBlogs}</div>
+      <div className={"outer"}>
+        <div className="blog">
+          <div className={"input"}>
+            Write new post here:
+            <TextFields addBlog={this.addBlog} />
+          </div>
+          <div className={"history"}>
+            <div>Previous Posts:</div>
+            <div id={"list"}>{listBlogs}</div>
+          </div>
         </div>
       </div>
 

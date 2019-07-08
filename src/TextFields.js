@@ -12,14 +12,14 @@ const useStyles = makeStyles(theme => ({
   textField: {
     //marginLeft: theme.spacing(1),
     //marginRight: theme.spacing(1),
-    width: 600,
+    width: '30vw',
     position: 'relative',
     top: -20,
   },
   nameField: {
     // marginLeft: theme.spacing(1),
     // marginRight: theme.spacing(1),
-    width: 200,
+    width: '10vw',
     position: 'relative',
     top: 0,
   },
@@ -78,7 +78,7 @@ export default function TextFields(props) {
         </div>
       </form>
       <button onClick={()=>props.addBlog(values.name, values.blog)}>
-        Press to submit blog
+        Submit blog
       </button>
     </div>
   );

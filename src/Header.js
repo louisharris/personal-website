@@ -14,17 +14,18 @@ class Header extends Component {
   render() {
 
     return (
-      <div className="Header">
+      <div>
+        <div className="Header">
+          <div><Facebook className="facebook" updateFacebook={this.props.updateFacebook} profile={this.props.profile}/></div>
+          <div className={'menu'}>
+            <h5 className={"home-button"} onClick={() => this.props.navHome()}>
+            Louis' Portfolio
+            </h5>
+            <div id={"simple-menu"}>
+              <SimpleMenu updatePage={this.props.updatePage} handleLogout={this.props.handleLogout}/>
+            </div>
+          </div>
 
-        <Facebook className="facebook" updateFacebook={this.props.updateFacebook} profile={this.props.profile}/>
-
-        <div className={'menu'}>
-          <h5 className={"home-button"} onClick={() => this.props.navHome()}>
-          Louis' Portfolio
-          </h5>
-        </div>
-        <div id={"simple-menu"}>
-          <SimpleMenu updatePage={this.props.updatePage} handleLogout={this.props.handleLogout}/>
         </div>
       </div>
     );

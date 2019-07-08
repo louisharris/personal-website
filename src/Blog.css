@@ -1,19 +1,19 @@
 .history {
-    position: relative;
     text-align: left;
-    top: 50px;
-    left: 20%;
-    width: 50%;
-    display: table-cell;
+    width: 30vw;
+    /*display: table-cell;*/
+    margin: auto;
 }
 
 .input {
-    position: relative;
+    /*position: relative;*/
     text-align: left;
-    top: 50px;
-    left: 50px;
-    width: 50%;
-    display: table-cell;
+    /*top: 50px;*/
+    /*left: 50px;*/
+    width: 30vw;
+    position: relative;
+    top: 0;
+    /*display: table-cell;*/
 }
 
 #blog-field {
@@ -21,11 +21,24 @@
     padding: 10px 20px 10px 20px;
     position: relative;
     border: 1px solid #888;
-    width: 600px;
+    width: 30vw;
     overflow-wrap: break-word;
 }
 
 #list {
-    position: relative;
     top: 30px;
+    width: 50vw;
+}
+
+.outer{
+    width: 100%;
+    position: relative;
+}
+
+.blog{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    padding: 50px;
+
 }
